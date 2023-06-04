@@ -22,7 +22,7 @@ const Footer = () => {
               <Image src={Logo} alt="logo" />
             </a>
           </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="flex-grow flex flex-wrap -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className=" font-medium  tracking-widest text-xl mb-5">
                 Quick Links
@@ -80,14 +80,18 @@ const Footer = () => {
               </h2>
               <nav className="list-none space-y-3 mb-10">
                 <li className=" flex gap-3 items-center">
-                  <span className=" w-14 h-14 rounded-full bg-skin-primary grid place-items-center">
-                    <MdOutlineLocalPhone size={24} />
+                  <span className=" block">
+                    <span className=" w-14 h-14 rounded-full bg-skin-primary grid place-items-center">
+                      <MdOutlineLocalPhone size={24} />
+                    </span>
                   </span>
                   <span className=" block text-lg ">(281) 000 - 1000 </span>
                 </li>
                 <li className=" flex gap-3 items-center">
-                  <span className=" w-14 h-14 rounded-full bg-skin-primary grid place-items-center">
-                    <HiOutlineEnvelope size={24} />
+                  <span className=" block">
+                    <span className=" w-14 h-14 rounded-full bg-skin-primary grid place-items-center">
+                      <HiOutlineEnvelope size={24} />
+                    </span>
                   </span>
                   <span className=" block text-lg ">
                     support@guidedpath.com
