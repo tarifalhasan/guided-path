@@ -7,12 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        skin: {
+          primary: 'var(--primary)',
+          secondary: 'var(--secondary)',
+        },
+      },
+
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-image': 'url(/header.png)',
       },
     },
   },
   plugins: [],
-}
+};
