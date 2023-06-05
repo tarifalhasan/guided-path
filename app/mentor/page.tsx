@@ -16,7 +16,7 @@ const Mentor = () => {
           <div className=" absolute top-[5%] left-[5%]">
             <Link
               href={'/'}
-              className=" bg-[#CCE6FF] w-16 h-16 rounded-full grid place-items-center"
+              className="  bg-skin-primary w-16 h-16 rounded-full grid place-items-center"
             >
               <IoIosArrowBack className=" text-white" size={35} />
             </Link>
@@ -73,7 +73,7 @@ const Mentor = () => {
                   Years of Experience
                 </label>
                 <div className="block relative w-full bg-transparent">
-                  <select className="block text-xl appearance-none bg-transparent w-full hover:border-gray-500 px-4 py-2  rounded  leading-tight focus:outline-none focus:shadow-outline">
+                  <select className="block text-xl appearance-none bg-transparent w-full hover:border-gray-500  py-2  rounded  leading-tight focus:outline-none focus:shadow-outline">
                     <option>5</option>
                     <option>10</option>
                     <option>3</option>
@@ -105,7 +105,7 @@ const Mentor = () => {
                   what are you interested in mentoring
                 </label>
                 <div className="block relative w-full bg-transparent">
-                  <select className="block text-xl appearance-none bg-transparent w-full hover:border-gray-500 px-4 py-2  rounded  leading-tight focus:outline-none focus:shadow-outline">
+                  <select className="block text-xl appearance-none bg-transparent w-full hover:border-gray-500 py-2  rounded  leading-tight focus:outline-none focus:shadow-outline">
                     <option>Select Interest</option>
                     <option>Developer</option>
                     <option>Content Creator</option>
