@@ -139,8 +139,8 @@ const Mentor = () => {
 
                 <textarea
                   id="message"
-                  rows="4"
-                  class="block   text-xl text-[#9A9A9A]  bg-transparent focus:outline-none"
+                  rows={4}
+                  className="block   text-xl text-[#9A9A9A]  bg-transparent focus:outline-none"
                 ></textarea>
               </div>
               <button type="submit" className=" primary_btn w-full">

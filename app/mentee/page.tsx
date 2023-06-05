@@ -102,7 +102,7 @@ const Mentee = () => {
 
                 <textarea
                   id="Your Comments"
-                  rows="4"
+                  rows={4}
                   className="block   text-xl text-[#9A9A9A]  bg-transparent focus:outline-none"
                 ></textarea>
               </div>
