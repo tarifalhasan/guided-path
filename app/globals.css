@@ -12,12 +12,12 @@
 
 @layer components {
   .primary_btn {
-    @apply bg-skin-primary rounded-full text-base lg:text-xl text-white font-medium px-5 py-2.5;
+    @apply outline-none focus:outline-none bg-skin-primary rounded-full text-base lg:text-xl text-white font-medium px-5 py-2.5;
   }
   .secondary_btn {
-    @apply bg-[#F5CA3D] rounded-full text-base lg:text-xl text-black font-medium px-5 py-2.5;
+    @apply bg-[#F5CA3D] outline-none focus:outline-none rounded-full text-base lg:text-xl text-black font-medium px-5 py-2.5;
   }
   .outline_btn {
-    @apply bg-transparent border-2 border-white rounded-full text-xl text-white font-medium px-5 py-2.5;
+    @apply bg-transparent outline-none focus:outline-none border-2 border-white rounded-full text-xl text-white font-medium px-5 py-2.5;
   }
 }

@@ -34,13 +34,13 @@ const Navbar = () => {
           </a>
           <div className="hidden lg:flex lg:gap-x-10">
             {navigation.map(item => (
-              <a
+              <Link
                 key={item.name}
                 href={item.href}
                 className="text-lg  font-normal leading-6 text-gray-50"
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
@@ -60,12 +60,12 @@ const Navbar = () => {
         </div>
 
         <div className="hidden lg:flex gap-6 items-center lg:justify-end">
-          <a href="#" className="outline_btn">
+          <Link href="/mentee" className="outline_btn">
             Mentees
-          </a>
-          <a href="#" className="-mx-3 primary_btn">
-            Mentees
-          </a>
+          </Link>
+          <Link href="/mentor" className="-mx-3 primary_btn">
+            Mentors
+          </Link>
         </div>
       </nav>
       <Dialog
